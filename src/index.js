@@ -1,8 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+import Header from './Header';
+import Search from './Search';
+//import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
-registerServiceWorker();
+let kibana = (
+    <div>
+        <Header />
+        <Search />
+    </div>
+);
+
+ReactDOM.render(kibana, document.getElementById('root'));
+//registerServiceWorker();
