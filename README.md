@@ -16,4 +16,4 @@ npm start
 ```
 
 ## TODO
-[ ] Remove App component along with its test and style files.
+- [ ] Remove App component along with its test and style files.
